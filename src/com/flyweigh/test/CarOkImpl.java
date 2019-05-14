@@ -19,9 +19,10 @@ public class CarOkImpl implements Car {
     @Override
     public void rideCar(String userName) {
         if (null == car) {
-            System.out.println("没有汽车驾驶");
-            return;
+            System.out.println("附近没有单车可骑");
+        } else {
+            car.rideCar(userName);
         }
-        car.rideCar(userName);
+
     }
 }

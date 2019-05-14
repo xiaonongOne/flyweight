@@ -12,7 +12,7 @@ import java.util.Map;
  * @Version: 1.0
  */
 public class CarFactory {
-    // 享元池
+    //  享元池
     //  如果找到了，不需要创建新的对象。包含了两个意思，第一个意思：减少了对象的创建，第二个,提高了对象的重复利用。
     private static Map<String,Object> filweighs = new HashMap<String,Object>();
 

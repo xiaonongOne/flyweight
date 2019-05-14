@@ -12,6 +12,6 @@ public class CarNoImpl implements Car {
 
     @Override
     public void rideCar(String userName) {
-        System.out.println(userName+"开汽车");
+        System.out.println(userName+"骑自行车");
     }
 }

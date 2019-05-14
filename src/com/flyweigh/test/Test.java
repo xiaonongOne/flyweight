@@ -19,12 +19,12 @@ public class Test {
        Car car2 = carFactory.getCar("蓝色",new CarNoImpl());
        car2.rideCar("小王");
 
-       Car car3 = carFactory.getCar("白色",new CarNoImpl());
+       Car car3 = carFactory.getCar("红色",new CarNoImpl());
        car3.rideCar("小李");
 
        System.out.println("=========================================");
 
-       Car car4 = carFactory.getCar("黑色",new CarOkImpl(new CarNoImpl()));
+       Car car4 = carFactory.getCar("黑色",new CarOkImpl(null));
        car4.rideCar("小王");
 
     }
